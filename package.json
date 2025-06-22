@@ -1,0 +1,17 @@
+{
+  "name": "my-ndoe-ftp-server",
+  "version": "1.0.0",
+  "description": "A simple FTP server using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.5",
+    "csv-parser": "^3.1.0",
+    "express": "^4.21.1"
+  }
+}
